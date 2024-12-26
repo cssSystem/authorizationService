@@ -1,0 +1,8 @@
+version: '1'
+
+services:
+  spring_app:
+    image: 'app:1.0'
+    build: ./
+    ports:
+      - "8080:8080"
